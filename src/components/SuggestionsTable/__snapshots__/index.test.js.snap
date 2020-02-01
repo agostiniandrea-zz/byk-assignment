@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`component/SuggestionsTable/index.js renders without crashing (no props) 1`] = `ShallowWrapper {}`;
+
+exports[`component/SuggestionsTable/index.js renders without crashing (with props) 1`] = `ShallowWrapper {}`;

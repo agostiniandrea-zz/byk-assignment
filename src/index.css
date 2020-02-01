@@ -3,3 +3,51 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.search-bar {
+  position: relative;
+}
+
+.input-field {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.search-icon {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.delete-label {
+  position: absolute;
+  right: 35px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) {
+  .app {
+    padding: 20px;
+  }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) {
+  .app {
+    padding: 50px;
+  }
+}
+
+@media only screen and (min-width : 1024px) {
+  .app {
+    padding: 100px;
+  }
+}

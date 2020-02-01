@@ -1,0 +1,14 @@
+.suggestion-item {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  border: 1px solid grey;
+  box-sizing: border-box;
+}
+
+.value {
+  position: absolute;
+  font-size: 0.8em;
+  left: 5px;
+  transform: translateY(-50%);
+}
